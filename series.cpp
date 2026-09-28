@@ -3,6 +3,7 @@
 int main()
 {
 	int n;
+	int term=2;
 	int i=2;
 	int sum=0;
 	printf("enter the value of n \n");
@@ -10,7 +11,8 @@ int main()
 	while(i<=n)
 	{
 		sum+=i;
-		i+=3;
+		term+=3;
+		i++;
 	}
 	printf("the sum is: %d",sum);
 	return 0;
